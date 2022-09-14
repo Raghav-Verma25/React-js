@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React ,{Component , Fragment} from "react";
+import Stu from "./Student";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// let el = <h1>Hello World</h1>
+//  let el = React.createElement("h1" , null , "hello world1");
 
-export default App;
+    // class App extends Component{
+    //     render(){
+    //         // return React.createElement("h1" , null , "hello world1");
+
+    //         // Fragment
+    //         return(
+    //         <Fragment>
+    //             <h1>Hello</h1>
+    //             <span>World</span>
+    //             <span>.......</span>
+    //         </Fragment>
+    //         );
+    //     }
+    // }
+    const App = () =>{
+        return (
+            <div>
+                <Stu name="Raghav"/>
+                <Stu name="Adarsh"/>
+                <Stu name="Shailesh"/>
+            </div>
+        );
+    };
+
+// export default el ;
+
+  export default App ;

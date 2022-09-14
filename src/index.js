@@ -1,17 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+// import el from "./App"
+import App from "./App"
+import Property from "./Property";
+import Propertywithclass from "./Propertywithclass";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+//Using component
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// ReactDOM.render(el,document.getElementById("root"))
+ReactDOM.render(<App />,document.getElementById("root"));
+
+// ReactDOM.render(ele11 , document.getElementById("root1"));
+
+ReactDOM.render(<Property name="Raghav" roll="14"/> , document.getElementById("root1"));
+ReactDOM.render(<Propertywithclass  roll="4"/> , document.getElementById("root2"));
