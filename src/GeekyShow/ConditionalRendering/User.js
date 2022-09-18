@@ -3,10 +3,10 @@ import React, { Component } from 'react'
 export default class User extends Component {
   render() {
     return (
-      <div>
+      <React.Fragment>
         Already Register <br />
-        <button>Sign in</button>
-      </div>
+        <button onClick={this.props.clickData}>Sign in</button>
+        </React.Fragment>
     )
   }
 }

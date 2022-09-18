@@ -3,11 +3,11 @@ import React, { Component } from 'react'
 export default class Guest extends Component {
   render() {
     return (
-      <div>
+      <React.Fragment>
         Welcome Guest
         <button> Sign up</button>
-        <button> Log in</button>
-      </div>
+        <button onClick={this.props.clickData}> Log in</button>
+        </React.Fragment>
     )
   }
 }

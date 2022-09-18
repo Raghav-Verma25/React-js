@@ -15,6 +15,8 @@ import HooksUseState from "./GeekyShow/HooksUseState"
 import HookUseEffect from "./GeekyShow/HookUseEffect"
 import App1 from "./GeekyShow/App1"
 import GuestApp from "./GeekyShow/ConditionalRendering/GuestApp"
+import List from "./component/List"
+import KeyApp from "./GeekyShow/Keys/KeyApp"
 
 //Using component
 
@@ -37,4 +39,6 @@ ReactDOM.render(<UpdateState /> , document.getElementById("update-root-5"));
  ReactDOM.render(<HookUseEffect/> , document.getElementById("effect"))
  ReactDOM.render(<App1/> , document.getElementById("custom"))
  ReactDOM.render(<GuestApp register={false}/> , document.getElementById("condition-1") )
-
+ ReactDOM.render(<List /> , document.getElementById("list"))
+ const arrValues =[111,222,333,444];
+ ReactDOM.render(<KeyApp numbers={arrValues}/> , document.getElementById("key"))

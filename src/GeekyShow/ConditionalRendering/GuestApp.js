@@ -2,11 +2,22 @@ import React, { Component } from 'react'
 import User from "./User"
 import Guest from "./Guest"
 export default class App extends Component {
+  state ={
+    isRegister : false
+  };
+  clickLogIn = () =>{
+    this.setState({isRegister : true});
+  };
+  clickLogOut = () =>{
+    this.setState({isRegister : false});
+  };
   render() {
-    const isRegister = this.props.register;
-    if(isRegister){
-        return <User />
+    const register = this.state.isRegister;
+    if(register){
+        return <User clickData={this.clickLogOut}/>
     }
-    return <Guest />
+    else{
+    return <Guest clickData={this.clickLogIn}/>
   }
+}
 }
