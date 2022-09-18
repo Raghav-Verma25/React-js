@@ -6,7 +6,7 @@ class State extends Component{
         rollno : this.props.rollno
     };
     render(){
-        return <h1>Hello {this.state.name} . Your roll number is {this.state.rollno}</h1>
+        return <h4>Hello {this.state.name} . Your roll number is {this.state.rollno}</h4>
     }
 }
 

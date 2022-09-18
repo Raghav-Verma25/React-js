@@ -12,7 +12,7 @@ class State2 extends Component{
     }
     render(){
         return(
-            <h1>My name is {this.state.name} and My roll  number is {this.state.rollno}</h1>
+            <h4>My name is {this.state.name} and My roll  number is {this.state.rollno}</h4>
         )
     }
     
