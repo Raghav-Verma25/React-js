@@ -19,7 +19,10 @@ import List from "./component/List"
 import KeyApp from "./GeekyShow/Keys/KeyApp"
 import Inline from "./GeekyShow/Styling Component/Inline"
 import Inline2 from "./GeekyShow/Styling Component/Inline2"
-import External from "./GeekyShow/Styling Component/External"
+// import External from "./GeekyShow/Styling Component/External"
+import External2 from "./GeekyShow/Styling Component/External2"
+import ModuleApp from "./GeekyShow/Styling Component/module Styling/ModuleApp";
+// import ModuleApp from "./GeekyShow/Styling Component/module Styling/ModuleApp"
 
 //Using component
 
@@ -47,4 +50,6 @@ ReactDOM.render(<UpdateState /> , document.getElementById("update-root-5"));
  ReactDOM.render(<KeyApp numbers={arrValues}/> , document.getElementById("key"))
  ReactDOM.render(<Inline/> , document.getElementById("inline"))
  ReactDOM.render(<Inline2/> , document.getElementById("external"))
- ReactDOM.render(<External/> , document.getElementById("ex-external"))
+//  ReactDOM.render(<External/> , document.getElementById("ex-external"))
+ ReactDOM.render(<External2/> , document.getElementById("external-2"))
+ ReactDOM.render(<ModuleApp /> , document.getElementById("module"))
