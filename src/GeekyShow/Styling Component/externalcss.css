@@ -1,4 +1,12 @@
 .txt{
+    color:gold;
+    text-align: center;
+}
+.txtb{
     color:blue;
+    text-align: center;
+}
+.txtg{
+    color:green;
     text-align: center;
 }
