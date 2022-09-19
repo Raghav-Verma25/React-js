@@ -1,15 +1,11 @@
 import React, { Component } from 'react'
-
+import "./externalcss.css"
 export default class External extends Component {
   render() {
-    const btnStyle ={
-        color:"voilet" ,
-        background : "blue"  
-    }
-    const border={
-        border: "3px solid red"
-    }
-    return <h1 style={{...btnStyle , ...border , ...{fontSize:'20px'}}}>Hello App</h1>
-
+    return (
+      <React.Fragment>
+        <h1 className="txt">This is external styling component</h1>
+      </React.Fragment>
+    )
   }
 }

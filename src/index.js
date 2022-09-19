@@ -18,6 +18,7 @@ import GuestApp from "./GeekyShow/ConditionalRendering/GuestApp"
 import List from "./component/List"
 import KeyApp from "./GeekyShow/Keys/KeyApp"
 import Inline from "./GeekyShow/Styling Component/Inline"
+import Inline2 from "./GeekyShow/Styling Component/Inline2"
 import External from "./GeekyShow/Styling Component/External"
 
 //Using component
@@ -45,4 +46,5 @@ ReactDOM.render(<UpdateState /> , document.getElementById("update-root-5"));
  const arrValues =[111,222,333,444];
  ReactDOM.render(<KeyApp numbers={arrValues}/> , document.getElementById("key"))
  ReactDOM.render(<Inline/> , document.getElementById("inline"))
- ReactDOM.render(<External/> , document.getElementById("external"))
+ ReactDOM.render(<Inline2/> , document.getElementById("external"))
+ ReactDOM.render(<External/> , document.getElementById("ex-external"))
