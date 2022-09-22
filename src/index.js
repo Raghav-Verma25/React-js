@@ -27,6 +27,7 @@ import InsertImage from "./GeekyShow/Styling Component/InsertImage"
 import InsertImageInsideSRC from "./InsertImageInsideSRC"
 import Button from "./BootStrap5/Button"
 import Form from "./Form/Form"
+import HandlerEventInForm from "./Form/HandlerEventInForm";
 
 //Using component
 
@@ -61,3 +62,4 @@ ReactDOM.render(<UpdateState /> , document.getElementById("update-root-5"));
  ReactDOM.render(<InsertImageInsideSRC /> , document.getElementById("image-2"))
  ReactDOM.render(<Button /> , document.getElementById("boot-1") )
  ReactDOM.render(<Form/> , document.getElementById("form-1"))
+ ReactDOM.render(<HandlerEventInForm/> , document.getElementById("form-2"))
