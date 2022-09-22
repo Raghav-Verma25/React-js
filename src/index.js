@@ -23,6 +23,7 @@ import Inline2 from "./GeekyShow/Styling Component/Inline2"
 import External2 from "./GeekyShow/Styling Component/External2"
 import ModuleApp from "./GeekyShow/Styling Component/module Styling/ModuleApp";
 // import ModuleApp from "./GeekyShow/Styling Component/module Styling/ModuleApp"
+import InsertImage from "./GeekyShow/Styling Component/InsertImage"
 
 //Using component
 
@@ -53,3 +54,4 @@ ReactDOM.render(<UpdateState /> , document.getElementById("update-root-5"));
 //  ReactDOM.render(<External/> , document.getElementById("ex-external"))
  ReactDOM.render(<External2/> , document.getElementById("external-2"))
  ReactDOM.render(<ModuleApp /> , document.getElementById("module"))
+ ReactDOM.render(<InsertImage /> , document.getElementById("image-1"))
