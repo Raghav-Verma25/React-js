@@ -25,6 +25,8 @@ import ModuleApp from "./GeekyShow/Styling Component/module Styling/ModuleApp";
 // import ModuleApp from "./GeekyShow/Styling Component/module Styling/ModuleApp"
 import InsertImage from "./GeekyShow/Styling Component/InsertImage"
 import InsertImageInsideSRC from "./InsertImageInsideSRC"
+import Button from "./BootStrap5/Button"
+import Form from "./Form/Form"
 
 //Using component
 
@@ -57,3 +59,5 @@ ReactDOM.render(<UpdateState /> , document.getElementById("update-root-5"));
  ReactDOM.render(<ModuleApp /> , document.getElementById("module"))
  ReactDOM.render(<InsertImage /> , document.getElementById("image-1"))
  ReactDOM.render(<InsertImageInsideSRC /> , document.getElementById("image-2"))
+ ReactDOM.render(<Button /> , document.getElementById("boot-1") )
+ ReactDOM.render(<Form/> , document.getElementById("form-1"))
