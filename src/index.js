@@ -30,6 +30,7 @@ import Form from "./Form/Form"
 import HandlerEventInForm from "./Form/HandlerEventInForm";
 import MultipleHandlerEventInForm from "./Form/MultipleHandlerEventForm"
 import Refs from "./component/Refs"
+import Refs2 from "./component/Refs2"
 
 //Using component
 
@@ -67,3 +68,4 @@ ReactDOM.render(<UpdateState /> , document.getElementById("update-root-5"));
  ReactDOM.render(<HandlerEventInForm/> , document.getElementById("form-2"))
  ReactDOM.render(<MultipleHandlerEventInForm/> , document.getElementById("form-3"))
  ReactDOM.render(<Refs/> , document.getElementById("ref-1"))
+ ReactDOM.render(<Refs2/> , document.getElementById("ref-2"))
