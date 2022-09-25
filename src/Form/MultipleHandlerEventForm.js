@@ -15,7 +15,7 @@ export default class MultipleHandlerEventForm extends Component {
             <form>
                 <hr />
                 <label>Name :
-                    <input type="text" name="name"  value={this.state.name} onChange={this.handlerChange} />
+                    <input type="text" name="name" value={this.state.name} onChange={this.handlerChange} />
                 </label>
                 <br></br>
                 <label>Name :
