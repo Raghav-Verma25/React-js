@@ -31,6 +31,9 @@ import HandlerEventInForm from "./Form/HandlerEventInForm";
 import MultipleHandlerEventInForm from "./Form/MultipleHandlerEventForm"
 import Refs from "./component/Refs"
 import Refs2 from "./component/Refs2"
+import EventHandler from "./GeekyShow/ConditionalRendering/EventHandler";
+import PassingArgument from "./GeekyShow/ConditionalRendering/PassingArgument";
+import FunctionalComponent from "./component/FunctionalComponent"
 
 //Using component
 
@@ -69,3 +72,9 @@ ReactDOM.render(<UpdateState /> , document.getElementById("update-root-5"));
  ReactDOM.render(<MultipleHandlerEventInForm/> , document.getElementById("form-3"))
  ReactDOM.render(<Refs/> , document.getElementById("ref-1"))
  ReactDOM.render(<Refs2/> , document.getElementById("ref-2"))
+
+ //-----------------
+ ReactDOM.render(<FunctionalComponent name="React" t="tut" /> , document.getElementById("functional"))
+ReactDOM.render(<EventHandler/>,document.getElementById("event-button"))
+ReactDOM.render(<PassingArgument/>,document.getElementById("argu-event-button"))
+ReactDOM.render(<FunctionalComponent name="Raghav" t="React tut"/>, document.getElementById("func-comp"))
