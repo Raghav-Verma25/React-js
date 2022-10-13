@@ -34,6 +34,8 @@ import Refs2 from "./component/Refs2"
 import EventHandler from "./GeekyShow/ConditionalRendering/EventHandler";
 import PassingArgument from "./GeekyShow/ConditionalRendering/PassingArgument";
 import FunctionalComponent from "./component/FunctionalComponent"
+import KeyUser2 from "./GeekyShow/Keys/KeyUser2"
+import InlineOnClick from "./GeekyShow/Styling Component/InlineOnClick"
 
 //Using component
 
@@ -78,3 +80,5 @@ ReactDOM.render(<UpdateState /> , document.getElementById("update-root-5"));
 ReactDOM.render(<EventHandler/>,document.getElementById("event-button"))
 ReactDOM.render(<PassingArgument/>,document.getElementById("argu-event-button"))
 ReactDOM.render(<FunctionalComponent name="Raghav" t="React tut"/>, document.getElementById("func-comp"))
+// ReactDOM.render(<KeyUser2/>,document.getElementById("Keyuser2"))
+ReactDOM.render(<InlineOnClick/>,document.getElementById("inlineOnClick"))
