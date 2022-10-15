@@ -10,8 +10,7 @@ export default class InlineOnClick extends Component {
   render() {
     const btnstyle={
         color:"blue",
-        backgroundColor:"orange",
-        
+        backgroundColor:"orange",  
     };
     if(this.state.change){
         btnstyle.backgroundColor = "White";

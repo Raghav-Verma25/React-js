@@ -36,6 +36,7 @@ import PassingArgument from "./GeekyShow/ConditionalRendering/PassingArgument";
 import FunctionalComponent from "./component/FunctionalComponent"
 import KeyUser2 from "./GeekyShow/Keys/KeyUser2"
 import InlineOnClick from "./GeekyShow/Styling Component/InlineOnClick"
+import Textarea from "./Form/Textarea";
 
 //Using component
 
@@ -82,3 +83,4 @@ ReactDOM.render(<PassingArgument/>,document.getElementById("argu-event-button"))
 ReactDOM.render(<FunctionalComponent name="Raghav" t="React tut"/>, document.getElementById("func-comp"))
 // ReactDOM.render(<KeyUser2/>,document.getElementById("Keyuser2"))
 ReactDOM.render(<InlineOnClick/>,document.getElementById("inlineOnClick"))
+ReactDOM.render(<Textarea/>,document.getElementById("textarea"))

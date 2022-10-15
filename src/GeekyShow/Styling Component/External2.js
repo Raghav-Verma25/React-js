@@ -7,8 +7,8 @@ export default class External2 extends Component {
     let colour = true;
     return (
       <React.Fragment>
-        <h2 className="txtb">This is External Styling component using Condition</h2>
-        <ExternalUser rang={colour ? "txtb" : "txtg"} />
+        <h2 className="txtp">This is External Styling component using Condition</h2>
+        <ExternalUser ran={colour ? "txtb" : "txtg"} />
       </React.Fragment>
     );
   }
