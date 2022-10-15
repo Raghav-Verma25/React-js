@@ -18,8 +18,8 @@ export default class MultipleHandlerEventForm extends Component {
                     <input type="text" name="name" value={this.state.name} onChange={this.handlerChange} />
                 </label>
                 <br></br>
-                <label>Name :
-                    <input type="text" name="password" value={this.state.password} onChange={this.handlerChange} />
+                <label>Password :
+                    <input type="password" name="password" value={this.state.password} onChange={this.handlerChange} />
                 </label>
             </form>
         </div>
