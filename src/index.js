@@ -37,7 +37,7 @@ import FunctionalComponent from "./component/FunctionalComponent"
 import KeyUser2 from "./GeekyShow/Keys/KeyUser2"
 import InlineOnClick from "./GeekyShow/Styling Component/InlineOnClick"
 import Textarea from "./Form/Textarea";
-
+import AppStateUp from "./GeekyShow/LiftingStateUp/AppStateUp"
 //Using component
 
 // ReactDOM.render(el,document.getElementById("root"))
@@ -84,3 +84,4 @@ ReactDOM.render(<FunctionalComponent name="Raghav" t="React tut"/>, document.get
 // ReactDOM.render(<KeyUser2/>,document.getElementById("Keyuser2"))
 ReactDOM.render(<InlineOnClick/>,document.getElementById("inlineOnClick"))
 ReactDOM.render(<Textarea/>,document.getElementById("textarea"))
+ReactDOM.render(<AppStateUp/> , document.getElementById("lifting"));

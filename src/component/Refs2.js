@@ -6,7 +6,7 @@ export default class Refs2 extends Component {
         this.state={
             value: "your name hightlight"
         };
-        this.textInput = React.createRef();
+       this.textInput = React.createRef();
     }
     handleSubmit = e =>{
         e.preventDefault();
