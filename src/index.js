@@ -40,6 +40,7 @@ import Textarea from "./Form/Textarea";
 import AppStateUp from "./GeekyShow/LiftingStateUp/AppStateUp"
 import ContextApp from "./GeekyShow/ContextText/ContextApp"
 import CApp from "./GeekyShow/ContextText/CApp"
+import CTypeApp from "./GeekyShow/ContextText/ContextType/CTypeApp"
 //Using component
 
 // ReactDOM.render(el,document.getElementById("root"))
@@ -89,3 +90,4 @@ ReactDOM.render(<Textarea/>,document.getElementById("textarea"))
 ReactDOM.render(<AppStateUp/> , document.getElementById("lifting"));
 ReactDOM.render(<ContextApp/> ,document.getElementById("context"))
 ReactDOM.render(<CApp/> ,document.getElementById("context-2"))
+ReactDOM.render(<CTypeApp/> ,document.getElementById("context-3"))
