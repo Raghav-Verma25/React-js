@@ -3,7 +3,6 @@ import {MyContextType} from "./Context"
 export default class CTypeGuest extends Component {
     static contextType= MyContextType; 
   render() {
-
     return (
       <div>
          <h2>Context Type - Guest</h2> 

@@ -41,6 +41,7 @@ import AppStateUp from "./GeekyShow/LiftingStateUp/AppStateUp"
 import ContextApp from "./GeekyShow/ContextText/ContextApp"
 import CApp from "./GeekyShow/ContextText/CApp"
 import CTypeApp from "./GeekyShow/ContextText/ContextType/CTypeApp"
+import HOCApp from "./GeekyShow/HOC/HOCApp"
 //Using component
 
 // ReactDOM.render(el,document.getElementById("root"))
@@ -91,3 +92,4 @@ ReactDOM.render(<AppStateUp/> , document.getElementById("lifting"));
 ReactDOM.render(<ContextApp/> ,document.getElementById("context"))
 ReactDOM.render(<CApp/> ,document.getElementById("context-2"))
 ReactDOM.render(<CTypeApp/> ,document.getElementById("context-3"))
+ReactDOM.render(<HOCApp/> ,document.getElementById("onmouseover"))
