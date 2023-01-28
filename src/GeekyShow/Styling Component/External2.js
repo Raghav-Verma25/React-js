@@ -2,6 +2,7 @@
 import React, { Component } from 'react'
 import "./externalcss.css"
 import ExternalUser from "./ExternalUser"
+
 export default class External2 extends Component {
   render() {
     let colour = true;

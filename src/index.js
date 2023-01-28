@@ -1,5 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from "react"; // it is used to create react JSX . JSX simply means convert HTML code to JS
+//react is library which is install in node_module and we can et information of react library from package.json
+import ReactDOM from "react-dom";  // it is used to render JSX 
+import Clock from "./Digital Clock/Clock"
 // import el from "./App"
 import App from "./App"
 import Property from "./Property";
@@ -52,6 +54,11 @@ import HOCApp from "./GeekyShow/HOC/HOCApp"
 // ReactDOM.render(<Property name="Raghav" roll="14"/> , document.getElementById("root1"));
 // ReactDOM.render(<Propertywithclass  roll="4"/> , document.getElementById("root2"));
 
+
+// SYNTAX - ReactDOM.render('what to render' , 'where to render');
+
+
+ReactDOM.render(<Clock/> , document.getElementById("clock"))
 ReactDOM.render(<State rollno="140"/> , document.getElementById("state-root-1"))
 ReactDOM.render(<State2 rollno="14"/> , document.getElementById("state-root-2"))
 ReactDOM.render(<EventHandling name="Adarsh"/> , document.getElementById("event-root-3"));

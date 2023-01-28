@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web storage - LocalStorage | Session Storage</title>
+</head>
+<body>
+
+        <h3>Web storage - LocalStorage | Session Storage</h3>
+        <p>Enter Mobile Number</p>
+        <input type="text" id="mob">
+        <button id="button">Add number</button>
+        <p id="local"></p>
+
+    <script>
+        // 
+        // 1.Store data in local Storage
+        // var variable = window.localStorage.setItem(key , value);
+
+        // 2.Receive data from local Storage
+        // window.localStorage.getItem(varible);
+
+         var btn = document.querySelector('button');
+         btn.onclick=()=>{
+     
+        var addNumber = document.getElementById("mob").value;
+        window.localStorage.setItem("myMobileNumber" , addNumber);
+
+        let displayData = window.localStorage.getItem('myMobileNumber');
+        document.getElementById("local").append(displayData) ;
+
+       
+    }
+
+
+    </script>
+
+
+</body>
+</html>
