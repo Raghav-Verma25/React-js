@@ -3,9 +3,9 @@ import React from "react"; // it is used to create react JSX . JSX simply means 
 import ReactDOM from "react-dom";  // it is used to render JSX 
 import Clock from "./Digital Clock/Clock"
 // import el from "./App"
-import App from "./App"
-import Property from "./Property";
-import Propertywithclass from "./Propertywithclass";
+// import App from "./App"
+// import Property from "./Property";
+// import Propertywithclass from "./Propertywithclass";
 import State from "./GeekyShow/State"
 import State2 from "./GeekyShow/State2"
 import EventHandling from "./component/EventHandling"
@@ -15,7 +15,6 @@ import UpdateState from "./component/UpdateState"
 // import Marks from "./component/Marks"
 import HooksUseState from "./GeekyShow/HooksUseState"
 import HookUseEffect from "./GeekyShow/HookUseEffect"
-import App1 from "./GeekyShow/App1"
 import GuestApp from "./GeekyShow/ConditionalRendering/GuestApp"
 import List from "./component/List"
 import KeyApp from "./GeekyShow/Keys/KeyApp"
@@ -36,7 +35,7 @@ import Refs2 from "./component/Refs2"
 import EventHandler from "./GeekyShow/ConditionalRendering/EventHandler";
 import PassingArgument from "./GeekyShow/ConditionalRendering/PassingArgument";
 import FunctionalComponent from "./component/FunctionalComponent"
-import KeyUser2 from "./GeekyShow/Keys/KeyUser2"
+// import KeyUser2 from "./GeekyShow/Keys/KeyUser2"
 import InlineOnClick from "./GeekyShow/Styling Component/InlineOnClick"
 import Textarea from "./Form/Textarea";
 import AppStateUp from "./GeekyShow/LiftingStateUp/AppStateUp"
@@ -44,6 +43,8 @@ import ContextApp from "./GeekyShow/ContextText/ContextApp"
 import CApp from "./GeekyShow/ContextText/CApp"
 import CTypeApp from "./GeekyShow/ContextText/ContextType/CTypeApp"
 import HOCApp from "./GeekyShow/HOC/HOCApp"
+import App1 from "./GeekyShow/App1"
+import App2 from "./App2"
 //Using component
 
 // ReactDOM.render(el,document.getElementById("root"))
@@ -68,7 +69,6 @@ ReactDOM.render(<UpdateState /> , document.getElementById("update-root-5"));
 // ReactDOM.render(<Marks /> , document.getElementById("update-root-7"));
  ReactDOM.render(<HooksUseState /> , document.getElementById("update-root-7"));
  ReactDOM.render(<HookUseEffect/> , document.getElementById("effect"))
- ReactDOM.render(<App1/> , document.getElementById("custom"))
  ReactDOM.render(<GuestApp register={false}/> , document.getElementById("condition-1") )
  ReactDOM.render(<List /> , document.getElementById("list"))
  const arrValues =[111,222,333,444];
@@ -100,3 +100,5 @@ ReactDOM.render(<ContextApp/> ,document.getElementById("context"))
 ReactDOM.render(<CApp/> ,document.getElementById("context-2"))
 ReactDOM.render(<CTypeApp/> ,document.getElementById("context-3"))
 ReactDOM.render(<HOCApp/> ,document.getElementById("onmouseover"))
+ReactDOM.render(<App1/> , document.getElementById("custom"))
+ReactDOM.render(<App2/> , document.getElementById("app22"))
