@@ -3,9 +3,9 @@ import React, { Component } from 'react'
 
 export default function FirstComponent(){
     return(
-        <>
-        <h2 >This is my First Component</h2>
-        <h2>Using Functional Way</h2>
-        </>
+        <div className='container bg-primary p-5'>
+        <h2 className='text-danger text-center ' >This is my First Component</h2>
+        <h2 className='text-danger text-center '>Using Functional Way</h2>
+        </div>
     );
 }

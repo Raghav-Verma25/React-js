@@ -6,10 +6,10 @@ class SecondComponent extends React.Component{
     render()     // render method is used to call jsx
         {
             return(
-                <>
-                <h2>This is Second Component</h2>
-                <h3>Using React class</h3>
-                </>
+                <div className='conatiner bg-info p-3'>
+                <h2 className='text-warning text-center '>This is Second Component</h2>
+                <h3 className='text-warning text-center '>Using React class</h3>
+                </div>
             )
         }
 }
